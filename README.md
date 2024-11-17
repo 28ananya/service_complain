@@ -12,7 +12,7 @@ Customer Features
 ## Service Requests:
 Submit service requests with details and attachments.
 Track the status of service requests (e.g., Pending, Resolved).
-##vAccount Management:
+## Account Management:
 Register and log in to access personalized services.
 View and manage submitted service requests.
 
