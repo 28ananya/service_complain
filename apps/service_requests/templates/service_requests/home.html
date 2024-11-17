@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to Gas Utility Services</h1>
+    <p>Your one-stop solution for all gas utility needs.</p>
+    {% if user.is_authenticated %}
+        <p><a href="{% url 'list_requests' %}" class="btn btn-primary">View My Requests</a></p>
+    {% else %}
+        <p><a href="{% url 'register' %}" class="btn btn-primary">Register</a> or <a href="{% url 'login' %}" class="btn btn-secondary">Login</a> to start</p>
+    {% endif %}
+</div>
+{% endblock %}

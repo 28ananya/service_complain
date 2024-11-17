@@ -1,0 +1,23 @@
+# Django Framework
+Django==5.0.6
+
+# Database
+djangorestframework==3.14.0   # For API development
+psycopg2==2.9.7               # PostgreSQL adapter (replace with your database backend)
+
+# Authentication
+django-allauth==0.55.0        # Optional: for social authentication
+
+# Environment Variables
+python-decouple==3.8          # Manage sensitive settings like keys
+
+# Other Utilities
+Pillow==9.2.0                 # Image handling
+django-crispy-forms==2.0      # For better form styling
+
+# Testing
+pytest-django==4.5.2          # For testing Django apps
+pytest==7.4.0
+
+# Static Files Handling (optional for production)
+whitenoise==6.4.0             # For serving static files in production
